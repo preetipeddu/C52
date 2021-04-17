@@ -1,29 +1,40 @@
 h1 {
-    color: brown;
+    color:palevioletred;
 }
 
 * {
     border: solid;
+    border-color: cadetblue;
 }
 
-.header{
-    background-color: lightblue;
+header{
     display: flex; 
     justify-content: space-between;
 }
 
 
 .grid{
+    background-color:palevioletred;
     display: flex; 
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.item {
+    color: midnightblue;
+}
+
 .footer{
+    background-color: cadetblue;
     display: flex; 
     justify-content: flex-end;
 }
 
 p,h2{
+    color: midnightblue;
     text-align: center;
+}
+
+body{
+    background-color:#6C30CC;
 }
