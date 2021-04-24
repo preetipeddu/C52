@@ -1,8 +1,19 @@
 h1 {
     color:palevioletred;
+    margin-left: 30px;
+    padding: 30px;
 }
 
-* {
+.menu {
+    margin: 50px;
+    padding: 50px;
+}
+
+.menu a {
+    margin-left: 20px;
+}
+
+.header * {
     border: solid;
     border-color: cadetblue;
 }
@@ -21,7 +32,24 @@ header{
 }
 
 .item {
-    color: midnightblue;
+    color: grey;
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.33;
 }
 
 .footer{
@@ -37,4 +65,12 @@ p,h2{
 
 body{
     background-color:#6C30CC;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
 }
